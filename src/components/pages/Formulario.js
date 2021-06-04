@@ -69,3 +69,66 @@ export default class Formulario extends Component{
         )
     };
 }
+
+
+
+
+
+
+
+<Form>
+<Form.Group>
+    {/* <Form.Label>{title}</Form.Label> */}
+    <Form.Label>{title}</Form.Label>
+    <Form.Control 
+        required
+        type="Text"
+        placeholder={placeholder}
+        name={name}
+        // onChange={handleInputChange}
+        aria-describedby={ariadesc}
+    />
+    <Form.Control.Feedback type="invalid">
+        Por favor complete el campo
+    </Form.Control.Feedback>
+</Form.Group>
+
+<Form.Group>
+<Form.Label>pregunta2</Form.Label>
+    <Form.Control 
+        required
+        type="Text"
+        placeholder={placeholder}
+        name={name}
+        // onChange={handleInputChange}
+        aria-describedby=""
+    />
+    <Form.Control.Feedback type="invalid">
+        Por favor complete el campo
+    </Form.Control.Feedback>
+</Form.Group>
+
+<Form.Group>
+    <Form.Label>pregunta2</Form.Label>
+    <Form.Control 
+        required
+        type="Text"
+        placeholder={placeholder}
+        name={name}
+        // onChange={handleInputChange}
+        aria-describedby={ariadesc}
+    />
+    <Form.Control.Feedback type="invalid">
+        Por favor complete el campo
+    </Form.Control.Feedback>
+</Form.Group>
+
+<Button className="btn btn-primary" type="submit">
+    Enviar
+</Button>
+
+</Form>
+
+
+
+

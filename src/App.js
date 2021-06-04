@@ -1,12 +1,11 @@
 import React from 'react'
 import './assets/estilos/estilos.css';
-
-import Formulario from './componentes/pages/Formulario'
+import FormUser from './components/form/FormuUser'
 
 function App() {
   return (
     <>
-      <Formulario />
+      <FormUser />
     </>
   );
 }

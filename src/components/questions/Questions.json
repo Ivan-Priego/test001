@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "title":"¿Cual es tu nombre?",
+        "placeholder":"Nombre",
+        "name":"name",
+        "ariadesc":"nameHelp"
+    },
+    {
+        "id":2,
+        "title":"¿Cual es tu apellido?",
+        "placeholder":"Apellido",
+        "name":"lastName",
+        "ariadesc":"lastNameHelp"
+    },
+    {
+        "id":3,
+        "title":"¿Cual es tu Edad?",
+        "placeholder":"Edad",
+        "name":"edge",
+        "ariadesc":"edgeHelp"
+    }
+]

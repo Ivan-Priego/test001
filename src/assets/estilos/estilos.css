@@ -4,6 +4,10 @@
     padding: 0;
     font-weight: normal;
 }
+h1,h2{
+    font-weight: 800;
+    color: #ffffff;
+}
 body{
     background: #6AC8FF;
     font-family: 'Montserrat';
@@ -16,6 +20,10 @@ body{
     border-radius: 50px;
     background: #6AC8FF;
     box-shadow:  20px 20px 60px #5aaad9,-20px -20px 60px #7ae6ff;
+}
+.boxForm hr{
+    border:solid 1px #ffffff;
+    margin: 10px 0 25px;
 }
 .boxForm .itemCuestion{
     margin: 10px 10px 25px;
