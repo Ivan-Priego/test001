@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-weight: normal;
+}
+body{
+    background: #6AC8FF;
+    font-family: 'Montserrat';
+}
+.boxForm{
+    width: 100%;
+    max-width: 500px;
+    padding: 20px 35px;
+    margin: 30px auto;
+    border-radius: 50px;
+    background: #6AC8FF;
+    box-shadow:  20px 20px 60px #5aaad9,-20px -20px 60px #7ae6ff;
+}
+.boxForm .itemCuestion{
+    margin: 10px 10px 25px;
+}
+.boxForm .itemCuestion p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+.boxForm .itemCuestion input[type=text]{
+    background: #ffffff;
+    padding: 15px 10px;
+    border: none;
+    width: 100%;
+}
