@@ -1,23 +1,18 @@
 [
     {
-        "id":1,
-        "title":"¿Cual es tu nombre?",
-        "placeholder":"Nombre",
-        "name":"name",
-        "ariadesc":"nameHelp"
+        "name":"question1",
+        "Label":"¿Cuál es tu nombre?"
     },
     {
-        "id":2,
-        "title":"¿Cual es tu apellido?",
-        "placeholder":"Apellido",
-        "name":"lastName",
-        "ariadesc":"lastNameHelp"
+        "name":"question2",
+        "Label":"¿Cuál es tu apellido?"
     },
     {
-        "id":3,
-        "title":"¿Cual es tu Edad?",
-        "placeholder":"Edad",
-        "name":"edge",
-        "ariadesc":"edgeHelp"
+        "name":"question3",
+        "Label":"¿Cuál es tu edad?"
+    },
+    {
+        "name":"question4",
+        "Label":"¿En que estado vives?"
     }
 ]

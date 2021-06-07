@@ -5,38 +5,37 @@
     font-weight: normal;
 }
 h1,h2{
-    font-weight: 800;
+    font-weight: 800 !important;
     color: #ffffff;
 }
 body{
-    background: #6AC8FF;
-    font-family: 'Montserrat';
+    background-color: #6AC8FF !important;
+    font-family: 'Montserrat' !important;
 }
-.boxForm{
-    width: 100%;
-    max-width: 500px;
-    padding: 20px 35px;
-    margin: 30px auto;
-    border-radius: 50px;
-    background: #6AC8FF;
-    box-shadow:  20px 20px 60px #5aaad9,-20px -20px 60px #7ae6ff;
+
+hr{
+    border:solid 1px #ffffff !important;
+    margin: 10px 0 25px !important;
 }
-.boxForm hr{
-    border:solid 1px #ffffff;
-    margin: 10px 0 25px;
-}
-.boxForm .itemCuestion{
+.form-group{
     margin: 10px 10px 25px;
 }
-.boxForm .itemCuestion p{
+.form-group .form-label{
     font-size: 18px;
     color: #ffffff;
     font-weight: 600;
 
 }
-.boxForm .itemCuestion input[type=text]{
+.form-group input[type=text]{
     background: #ffffff;
     padding: 15px 10px;
     border: none;
     width: 100%;
+}
+form .btn.btn-lg{
+    border-radius: 25px;
+    padding: .5rem 3rem;
+}
+form .invalid-feedback{
+    color: #14386d;
 }
